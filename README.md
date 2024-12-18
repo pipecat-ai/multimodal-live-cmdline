@@ -134,9 +134,9 @@ python gemini-live.py --import-functions function-examples.py --initial-message 
 
 ## Code walk-through
 
-The full [gemini-live.py] file is about 480 lines, but we'll skip the imports and argument parsing code.
+The full [gemini-live.py](gemini-live.py) file is about 480 lines, but we'll skip the imports and argument parsing code.
 
-That leaves about 320 lines of code that implement all of the above features except for function calling. The function declaration and calling code is in a separate module, [function-helpyer.py], which is about 100 lines (most of it docstrings).
+That leaves about 320 lines of code that implement all of the above features except for function calling. The function declaration and calling code is in a separate module, [function-helpyer.py](function-helper.py), which is about 100 lines (most of it docstrings).
 
 ### `__main__` and the run loop
 
